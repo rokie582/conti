@@ -3,7 +3,7 @@
 ## Architecture
 1. Public Subnet with Public LB routing traffic to backend UI flask node in private subnet serving graph
 2. MYSQL DB stores data in Private Subnet
-3. Private Subnet with 2 nodes (microservices) - 1. UI flask node serving graph from MYSQL DB and 2. Back end node pulling data from endpoint and saving data in DB
+3. Private Subnet with 2 nodes (microservices) - 1. UI flask node serving graph from MYSQL DB and 2. Back end node triggering code via cronjob pulling data from endpoint and saving data in DB
 4. infrastructure provisioned with Terraform
 
 ## Improvements
