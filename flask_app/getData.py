@@ -14,7 +14,7 @@ def main():
 
 
         db_connection = mysql.connector.connect(user='admin', password='password123',
-                                      host='mysql.cp97zrqvbvgg.eu-central-1.rds.amazonaws.com',
+                                      host='mysql.amazonaws.com',
                                       database='conti')
 
         db_cursor = db_connection.cursor()

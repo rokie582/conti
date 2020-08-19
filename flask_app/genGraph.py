@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from datetime import datetime
 from flask import Flask
 from flask import render_template
@@ -15,7 +16,7 @@ def line_chart():
     try:
 
         db_connection = mysql.connector.connect(user='admin', password='password123',
-                                                host='mysql.cp97zrqvbvgg.eu-central-1.rds.amazonaws.com',
+                                                host='mysql.amazonaws.com',
                                                 database='conti')
 
         sql_query = "select * from temp_data td where td.timestamp between (now() - INTERVAL 6 hour) and now()"
