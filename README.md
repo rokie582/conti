@@ -14,3 +14,4 @@
 5. Make the graph more interactive to allow user to select time range or zoom-in zoom-out.
 
 ## Screenshots
+![Graph](https://github.com/rokie582/conti-test/blob/master/Screenshot%202020-08-19%20at%2017.17.28.png)
